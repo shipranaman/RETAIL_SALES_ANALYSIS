@@ -87,25 +87,6 @@ Features:
 
 ---
 
-# Dashboard Preview
-
-## Business Overview
-
-![Business Overview](images/01-Business%20Overview.png)
-
----
-
-## Product Performance
-
-![Product Performance](images/02-Product%20Performance.png)
-
----
-
-## Customer & Sales Insights
-
-![Customer & Sales Insights](images/03-Customer%20%26%20Sales%20Insights.png)
-
----
 
 # Data Cleaning & Preprocessing
 
