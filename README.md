@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project presents an end-to-end Retail Sales Analytics solution built using Python, MySQL, and Power BI. The objective is to transform raw retail transaction data into meaningful business insights through data cleaning, SQL analysis, and interactive dashboards.
+This project presents an end-to-end Retail Sales Analytics solution built using Python, MySQL, and Power BI. The project transforms raw retail transaction data into meaningful business insights through data cleaning, SQL analysis, and interactive Power BI dashboards.
 
-The project follows a complete analytics workflow:
+The workflow includes:
 
 - Data Cleaning using Python (Pandas)
 - Exploratory Data Analysis (EDA)
-- Data Analysis using MySQL
+- Business Analysis using MySQL
 - Interactive Dashboard Development in Power BI
 
 ---
@@ -45,7 +45,7 @@ The Power BI report consists of three interactive dashboard pages.
 
 ## 1. Business Overview Dashboard
 
-Highlights:
+Features:
 
 - Total Revenue
 - Total Orders
@@ -56,13 +56,13 @@ Highlights:
 - Revenue by Product
 - Revenue by Category
 - Payment Method Distribution
-- Interactive Year, Month and Category Filters
+- Interactive Filters
 
 ---
 
 ## 2. Product Performance Dashboard
 
-Highlights:
+Features:
 
 - Product Performance Matrix
 - Category-wise Revenue
@@ -70,13 +70,12 @@ Highlights:
 - Top 10 Products by Revenue
 - Discount Analysis
 - Product Revenue Comparison
-- Interactive Product Filters
 
 ---
 
 ## 3. Customer & Sales Insights Dashboard
 
-Highlights:
+Features:
 
 - Quarterly Revenue Trend
 - Top Revenue Generating Customers
@@ -84,55 +83,7 @@ Highlights:
 - Highest Transaction Value
 - Payment Method Distribution
 - Sales Channel Analysis
-- Discount Impact on Revenue
-
----
-
-# Data Cleaning & Preprocessing
-
-Python (Pandas) was used to prepare the dataset before analysis.
-
-Cleaning steps included:
-
-- Missing value handling
-- Duplicate removal
-- Data type conversion
-- Date formatting
-- Standardizing categorical values
-- Revenue calculations
-- Feature engineering
-
----
-
-# Exploratory Data Analysis
-
-EDA was performed using Python to understand data distribution and identify business patterns.
-
-Analysis included:
-
-- Revenue distribution
-- Category performance
-- Monthly sales trend
-- Customer purchasing behavior
-- Payment method analysis
-- Product popularity
-
----
-
-# MySQL Analysis
-
-Business questions were solved using MySQL queries.
-
-SQL analysis included:
-
-- Monthly Revenue Analysis
-- Top Selling Products
-- Category-wise Revenue
-- Customer Purchase Analysis
-- Payment Method Statistics
-- Revenue by Discount
-- Order Distribution
-- Product Performance Ranking
+- Discount Impact Analysis
 
 ---
 
@@ -152,7 +103,53 @@ SQL analysis included:
 
 ## Customer & Sales Insights
 
-![Customer & Sales Insights](images/03-Customer%20&%20Sales%20Insights.png)
+![Customer & Sales Insights](images/03-Customer%20%26%20Sales%20Insights.png)
+
+---
+
+# Data Cleaning & Preprocessing
+
+Python (Pandas) was used to prepare the dataset before visualization.
+
+Cleaning steps included:
+
+- Handling missing values
+- Removing duplicate records
+- Data type conversion
+- Date formatting
+- Standardizing categorical values
+- Revenue calculations
+- Feature engineering
+
+---
+
+# Exploratory Data Analysis
+
+EDA was performed using Python to identify patterns and trends.
+
+Analysis included:
+
+- Revenue Distribution
+- Monthly Sales Trend
+- Category Performance
+- Customer Purchasing Behaviour
+- Payment Method Analysis
+- Product Popularity
+
+---
+
+# MySQL Analysis
+
+Business questions answered using MySQL:
+
+- Monthly Revenue Analysis
+- Top Selling Products
+- Category-wise Revenue
+- Customer Purchase Analysis
+- Payment Method Statistics
+- Revenue by Discount
+- Product Performance Ranking
+- Order Distribution
 
 ---
 
@@ -169,16 +166,19 @@ SQL analysis included:
 
 ---
 
+
+---
+
 # Key Business Insights
 
-- Generated approximately **1.64M** in total revenue across **13K** customer orders.
-- Revenue remained relatively stable throughout the year with noticeable seasonal variations.
-- A small number of products contributed a significant share of total revenue.
-- Category-wise analysis identified the highest-performing product segments.
-- Discount campaigns increased transaction volume but affected overall revenue contribution.
-- Customer purchasing behavior varied across different payment methods.
-- A small group of customers generated a substantial percentage of total revenue.
-- Product demand differed significantly across categories, helping identify high-performing inventory.
-- Quarterly sales analysis highlighted changes in customer purchasing trends.
-- Interactive filters enable dynamic business analysis across different dimensions.
+- Generated approximately **1.64M** in total revenue from **13K** customer orders.
+- Revenue remained consistent throughout the year with seasonal fluctuations.
+- A limited number of products contributed a significant portion of total revenue.
+- Category-wise analysis highlighted the highest-performing product segments.
+- Discount campaigns increased transaction volume while influencing revenue contribution.
+- Customer purchasing behaviour varied across payment methods.
+- A small group of customers generated a substantial share of total sales.
+- Quarterly revenue trends revealed changing customer buying patterns.
+- Interactive dashboards allow dynamic filtering by category, product, payment method, and time period.
 
+---
